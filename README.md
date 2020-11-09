@@ -156,7 +156,7 @@ PORT = 8081
 API_ROOT = 'http://127.0.0.1:8081'
 ```
 
-然后打开/shokobot/settings.py,做如下改动
+然后打开/shokobot/plugins/settings.py,做如下改动
 ```
 # Configurations for plugins
 from os import path
@@ -245,7 +245,7 @@ bot，dice 1d6
 
 查阅config.py中的注释，进行机器人基础设定的其他自定义
 
-参考[nonebot文档](https://docs.nonebot.dev/)，对shokobot/下的插件进行深度修改
+参考[nonebot文档](https://docs.nonebot.dev/)，对shokobot/plugins/下的插件进行深度修改
 
 ## 参考
 
