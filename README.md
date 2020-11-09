@@ -9,26 +9,38 @@ A QQbot to push Tweets to QQ group
 ## 简介
 
 自动推送并翻译（使用百度翻译API）复数指定账号的推文
+
 手动按时间顺序查询并翻译复数推文
+
 进行简单的互动
+
 定时发布信息
+
 掷色子
 
-目前应用于[-多间硝子-](https://space.bilibili.com/20621838)字幕组组内的推特推送Bot。
+
+目前应用于[多间硝子](https://space.bilibili.com/20621838)字幕组组内的推特推送Bot。
 
 ## 使用之前
 
 请先准备：
+
 一个作为Bot的QQ号
+
 百度翻译的API
+
 twitter的API
+
 一个ssr代理
 
 ## 环境安装
 
 ### Python 环境
+
 推荐使用python 3.7
+
 需要安装如下库：
+
 ```
 aiocqhttp
 cn2an
@@ -49,11 +61,13 @@ urllib
 #### ~~酷Q Pro~~
 
 --由于酷Q被封，现在转而使用[mirai](https://github.com/mamoe/mirai-console)框架，使用[CQHTTPmirai](https://github.com/yyuueexxiinngg/cqhttp-mirai)插件进行移植--
+
 如何安装mirai和CQHTTPmirai请移步。
 
 #### CQHTTP插件配置
 
 安装好mirai和CPHTTPmirai插件后，打开插件文件夹下的setting.yml，做如下修改：
+
 ```
 # Debug日志输出选项
 debug: false
@@ -121,6 +135,7 @@ debug: false
 ## 如何配置
 
 下载源码后请在config.py中修改：
+
 ```
 # The superusers for nonebot
 # Only superusers can use some command such as /say
@@ -209,19 +224,27 @@ Running on http://127.0.0.1:8081 (CTRL + C to quit)
 
 Bot可以做到一定程度的自然语言处理，以下指令都可以适用：
 
+
 bot，推送最近五条推文
+
 机器人 翻译最近三条推特
+
 烤推机。推送第1条推文
+
 @机器人，我好看吗
 
+
 投色子的语法如下：
+
 bot，dice 1d6
+
 
 未识别为指令的唤起将被作为对话处理，机器人会进行一个简单的回答。
 
 ## 自定义
 
 查阅config.py中的注释，进行机器人基础设定的其他自定义
+
 参考[nonebot文档](https://docs.nonebot.dev/)，对shokobot/下的插件进行深度修改
 
 ## 参考
