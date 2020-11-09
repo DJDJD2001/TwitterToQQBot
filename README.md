@@ -58,7 +58,7 @@ urllib
 ```
 ### 其他环境
 
-#### ~~酷Q Pro~~
+#### ~~酷Q Pro~~mirai框架
 
 --由于酷Q被封，现在转而使用[mirai](https://github.com/mamoe/mirai-console)框架，使用[CQHTTPmirai](https://github.com/yyuueexxiinngg/cqhttp-mirai)插件进行移植--
 
@@ -250,8 +250,11 @@ bot，dice 1d6
 ## 参考
 
 https://github.com/mamoe/mirai-console
+
 https://github.com/nonebot/nonebot
+
 https://docs.nonebot.dev/
+
 https://github.com/yyuueexxiinngg/cqhttp-mirai
 
 ## 其他
